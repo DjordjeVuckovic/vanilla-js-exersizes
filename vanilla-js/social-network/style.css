@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 50px;
+    background-image: url("img/bg.jpg");
+    color: #fff;
+    background-size: cover;
+    box-shadow: black;
+}
+h2{
+    margin-bottom: 20px;
+}
+.logo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main-wrapper{
+    max-width: 650px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.3);
+    padding: 50px;
+}
+form div{
+    padding: 15px 0;
+}
+form div label{
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+form div input{
+    height: 50px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+}
+form div button{
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.no-acc-register button{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.no-acc-register p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    /*padding: 10px 30px;*/
+}
+.custom-modal{
+    display: none;
+    background-color: black;
+    box-shadow: rgba(255,255,255,0.8) 0 0 1000px 1000px;
+    max-width: 650px;
+    padding: 50px;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.custom-modal button#closeModal{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: 0;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.inner-container{
+    border: 1px solid green;
+    padding: 15px;
+}
+.inner-container.left-side{
+    text-align: center;
+}
+.inner-container img.profile{
+    width: 70%;
+    border-radius: 50%;
+    display: block;
+    border:5px solid white;
+    margin: auto auto 25px;
+}
+#edit-btn{
+    margin-right: 20px;
+    padding: 2px;
+    text-align: center;
+    font-size: 15px;
+}
+#out-btn{
+    margin-left: 20px;
+    padding: 2px;
+    text-align: center;
+    font-size: 15px;
+}
+.inner-container.right-side form{
+    display: flex;
+    height: 120px;
+}
+.inner-container.right-side form textarea{
+    width: 85%;
+    border:0;
+    padding: 10px;
+    resize: none;
+    outline-color: green;
+}
+.inner-container.right-side form button{
+    width: 15%;
+    border: 0;
+    color: green;
+}
+.all-posts .single-post{
+    background-color: #eaeaea;
+    padding: 15px;
+    margin-top: 15px;
+    color: #000;
+}
+.all-posts .single-post .post-content{
+    padding-bottom: 10px;
+    border-bottom:1px solid black;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.all-posts .single-post .post-comments form{
+    height: 40px;
+    margin-top: 15px;
+}
+#comment-input{
+    width: 80%;
+    padding: 0 10px;
+}
+#post-btn{
+    width: 20%;
+    background-color: grey;
+    color: black;
+    padding: 5px;
+}
+.all-posts .single-post .post-actions{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+#comment-btn{
+    background-image: url("img/comment.png");
+    padding: 5px 15px 5px 40px;
+    background-repeat: no-repeat;
+    backgroud-position: 10px;
+    border: 0;
+}
+#remove-btn{
+    border-color: red;
+    color: red;
+    padding: 5px 15px;
+}
+.like-btn{
+    background-image: url("img/like.png");
+    padding: 5px 15px 10px 40px;
+    background-repeat: no-repeat;
+    backgroud-position: 10px;
+    border: 0;
+}
+.post-comments{
+    display: none;
+}
+.single-comment{
+    border: 1px dotted grey;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
